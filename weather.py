@@ -1,4 +1,13 @@
+# weatherAPI can check weather location around the world with one snap. i run it on python using basic code and
+# lib requests i use try/except funstions here
+
 import requests
+# if you havent have a requests lib you download to your terminal just enter-- pip install requests
+# wait for athe process it will be download and install
+
+#you have to create account first in weatherAPI(https://openweathermap.org/)
+#after that go to "My Profile" and "API keys" this API keys is a unique characters for your account
+# you can use it to connect or access weather across the world
 
 def get_weather(city):
     api_key = "9a30d5974888518138425a9a08908cf1"  
